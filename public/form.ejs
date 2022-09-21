@@ -1,0 +1,30 @@
+<head>
+  <link href="cssejs.css" rel="stylesheet" type="text/css" />
+  <style>
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="flex-container">
+    <form action="/user" method="post">
+      <div>
+        <label for="username">Username:</label>
+      </div>
+      <div>
+        <input type="text" id="username" name="username" />
+      </div>
+      <label for="age">Age:</label>
+      <div>
+        <input type="number" id="age" name="age" />
+      </div>
+
+      <button>Submit</button>
+    </form>
+  </div>
+</body>
